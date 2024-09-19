@@ -14,7 +14,7 @@ mimir is a pentest lookup and install tool. It can lookup common tools, exploit 
 -   [ ] Create install script for Window/Linux
 -   [ ] Create install script for Mac
 -   [x] Create config functionality
--   [ ] Create local sqlite backend
+-   [ ] Create local sqlite backend for tool searcher
 -   [ ] Create serverfile for hosting db updates
 
 # Contribution:
