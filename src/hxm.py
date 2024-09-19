@@ -5,6 +5,7 @@ import commands.search
 import commands.tldr
 import commands.lol
 import commands.cve
+import commands.gtfo
 
 args = parse_arguments()
 config = load_config()
@@ -18,6 +19,8 @@ match args.command:
 		commands.tldr.main(args, config)
 	case "lol":
 		commands.lol.main(args, config)
+	case "gtfo":
+		commands.gtfo.main(args, config)
 	case "cve":
 		commands.cve.main(args, config)
 	
