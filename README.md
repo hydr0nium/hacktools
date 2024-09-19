@@ -7,6 +7,7 @@ Hackktools is a pentest lookup and install tool. It can lookup common tools, exp
 - [ ] Implement tool installer
 - [ ] Implement tool searcher
 - [ ] Implement tldr tool
+- [ ] Implement updater
 - [ ] Implement gtfobins tool
 - [ ] Implement lolbas tool
 - [ ] Implement cve searcher
