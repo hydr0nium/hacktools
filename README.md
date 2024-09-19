@@ -1,6 +1,6 @@
-# hacktools-manager
+# Mimir - The All Knowing Pentesting Tool
 
-hxm is a pentest lookup and install tool. It can lookup common tools, exploit techniques like GTFOBins and CVE's and install pentest software.
+mimir is a pentest lookup and install tool. It can lookup common tools, exploit techniques like GTFOBins and CVE's and install pentest software.
 
 # TODO
 
@@ -10,7 +10,7 @@ hxm is a pentest lookup and install tool. It can lookup common tools, exploit te
 -   [ ] Implement updater
 -   [ ] Implement gtfobins tool
 -   [ ] Implement lolbas tool
--   [ ] Implement cve searcher
+-   [x] Implement cve searcher
 -   [ ] Create install script for Window/Linux
 -   [ ] Create install script for Mac
 -   [x] Create config functionality
