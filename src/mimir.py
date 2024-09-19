@@ -7,7 +7,8 @@ import commands.lol
 import commands.cve
 import commands.gtfo
 
-args = parse_arguments()
+parser = parse_arguments()
+args = parser.parse_args()
 config = load_config()
 
 match args.command:
@@ -23,6 +24,8 @@ match args.command:
 		commands.gtfo.main(args, config)
 	case "cve":
 		commands.cve.main(args, config)
+	case "help":
+		parser.print_help()
 	
   
 	

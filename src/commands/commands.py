@@ -14,7 +14,7 @@ def parse_arguments():
   init_lol_parser(sub_parser)
   init_gtfo_parser(sub_parser)
   init_help_parser(sub_parser)
-  return parser.parse_args()
+  return parser
 
 def init_install_parser(sub_parser: argparse._SubParsersAction):
   install_parser = sub_parser.add_parser('install', help="Install a pentesting / hacking tool")
@@ -49,7 +49,7 @@ def init_cve_parser(sub_parser: argparse._SubParsersAction):
   cve_parser.add_argument('cve', help='Get a short NVD description of the CVE', metavar='CVE-XXXX-XXXX')
   return cve_parser
 
-def init_help_parser(sub_parser):
+def init_help_parser(sub_parser: argparse._SubParsersAction):
   help_parser = sub_parser.add_parser("help", help="Show help")
   help_parser._positionals.title = 'Arguments'
   return help_parser
