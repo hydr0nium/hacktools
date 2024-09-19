@@ -13,7 +13,7 @@ hxm is a pentest lookup and install tool. It can lookup common tools, exploit te
 - [ ] Implement cve searcher
 - [ ] Create install script for Window/Linux
 - [ ] Create install script for Mac
-- [ ] Create config functionality
+- [X] Create config functionality
 - [ ] Create local sqlite backend
 - [ ] Create serverfile for hosting db updates
 
