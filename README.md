@@ -17,3 +17,6 @@ Hackktools is a pentest lookup and install tool. It can lookup common tools, exp
 - [ ] Create local sqlite backend
 - [ ] Create serverfile for hosting db updates
 
+# Contribution:
+
+If you want to contribute to the project please open a pull request with the changes.
