@@ -4,13 +4,15 @@ Hackktools is a pentest lookup and install tool. It can lookup common tools, exp
 
 # TODO
 
-- [ ] Implement install functionality
-- [ ] Implement Tool searcher
-- [ ] Implement tldr functionality
-- [ ] Implement gtfobins functionality
-- [ ] Implement lolbas functionality
-- [ ] Implement cve functionality
-- [ ] Create install script
+- [ ] Implement tool installer
+- [ ] Implement tool searcher
+- [ ] Implement tldr tool
+- [ ] Implement gtfobins tool
+- [ ] Implement lolbas tool
+- [ ] Implement cve searcher
+- [ ] Create install script for Window/Linux
+- [ ] Create install script for Mac
 - [ ] Create config functionality
-- [ ] Create server format for above functionalites
+- [ ] Create local sqlite backend
+- [ ] Create serverfile for hosting db updates
 
