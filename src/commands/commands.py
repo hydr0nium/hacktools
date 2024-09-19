@@ -34,7 +34,8 @@ def init_lol_parser(sub_parser):
   return lol_parser
 
 def init_gtfo_parser(sub_parser):
-  gtfo_parser = sub_parser.add_parser('lol', help="Get living of the land (Linux) help")
+  gtfo_parser = sub_parser.add_parser('gtfo', help="Get living of the land (Linux) help")
+  gtfo_parser.add_argument('executable', help='The binary / executable that you would like to know how to abuse')
   return gtfo_parser
 
 def init_cve_parser(sub_parser):
