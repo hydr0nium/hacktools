@@ -2,7 +2,7 @@ import argparse
 
 
 def parse_arguments():
-  parser = argparse.ArgumentParser(prog="hxm", usage="%(prog)s [command]")
+  parser = argparse.ArgumentParser(prog="mimir", usage="%(prog)s [command]")
   parser._positionals.title = "Available Commands"
 
   sub_parser = parser.add_subparsers(dest='command', required=True)
@@ -38,8 +38,9 @@ def init_gtfo_parser(sub_parser):
   gtfo_parser.add_argument('executable', help='The binary / executable that you would like to know how to abuse')
   return gtfo_parser
 
-def init_cve_parser(sub_parser):
+def init_cve_parser(sub_parser: argparse._SubParsersAction):
   cve_parser = sub_parser.add_parser("cve", help="Get some information on the specific CVE")
+  cve_parser.add_argument('cve', help='Get a short NVD description of the CVE')
   return cve_parser
 
 def init_help_parser(sub_parser):
